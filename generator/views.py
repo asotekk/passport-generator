@@ -22,7 +22,7 @@ def password(request):
     if request.GET.get("Uppercase"):
         character.extend(list("#@$%&*^!?"))
     
-    if request.GET.get("Uppercase"):
+    if request.GET.get("numbers"):
         character.extend(list("0123456789"))
 
 
